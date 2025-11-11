@@ -1,0 +1,58 @@
+courseplatform:
+  platformName: "SkillUp Online"
+  defaultLanguage: "English"
+  subscriptionFee: 999.99
+  active: true
+
+  supportedLanguages:
+    - English
+    - Hindi
+    - Spanish
+    - French
+
+  storageLimits:
+    basic: 5GB
+    premium: 50GB
+    enterprise: 200GB
+
+  defaultCourse:
+    title: "Spring Boot Essentials"
+    duration: P30D
+    instructor: "Dr. Smith"
+    price: 499.99
+
+  courses:
+    - title: "Java Fundamentals"
+      duration: P20D
+      instructor: "Alice Johnson"
+      price: 299.99
+      tags: [Java, Programming, Basics]
+
+    - title: "Advanced Spring"
+      duration: P45D
+      instructor: "Bob Williams"
+      price: 699.99
+      tags: [Spring, Backend, Advanced]
+
+    - title: "Web Development with React"
+      duration: P25D
+      instructor: "Charlie Brown"
+      price: 399.99
+      tags: [React, Frontend, JavaScript]
+
+  instructorDirectory:
+    alice:
+      name: "Alice Johnson"
+      expertise: "Java Programming"
+      rating: 4.7
+      bio: "Expert Java trainer with 10 years of experience"
+    bob:
+      name: "Bob Williams"
+      expertise: "Spring Framework"
+      rating: 4.9
+      bio: "Spring specialist and backend architect"
+    charlie:
+      name: "Charlie Brown"
+      expertise: "React Development"
+      rating: 4.6
+      bio: "Frontend engineer and React mentor"
